@@ -1,6 +1,7 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.calendarapp">
-   <application
+    <application
         android:label="日历"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
@@ -25,6 +26,595 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher1"
+         android:name=".ic_launcher1"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher2"
+         android:name=".ic_launcher2"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher3"
+         android:name=".ic_launcher3"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher4"
+         android:name=".ic_launcher4"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher5"
+         android:name=".ic_launcher5"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher6"
+         android:name=".ic_launcher6"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher7"
+         android:name=".ic_launcher7"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher8"
+         android:name=".ic_launcher8"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher9"
+         android:name=".ic_launcher9"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher10"
+         android:name=".ic_launcher10"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher11"
+         android:name=".ic_launcher11"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher12"
+         android:name=".ic_launcher12"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher13"
+         android:name=".ic_launcher13"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher14"
+         android:name=".ic_launcher14"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher15"
+         android:name=".ic_launcher15"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher16"
+         android:name=".ic_launcher16"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher17"
+         android:name=".ic_launcher17"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher18"
+         android:name=".ic_launcher18"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher19"
+         android:name=".ic_launcher19"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher20"
+         android:name=".ic_launcher20"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher21"
+         android:name=".ic_launcher21"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher22"
+         android:name=".ic_launcher22"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher23"
+         android:name=".ic_launcher23"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher24"
+         android:name=".ic_launcher24"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher25"
+         android:name=".ic_launcher25"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher26"
+         android:name=".ic_launcher26"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher27"
+         android:name=".ic_launcher27"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher28"
+         android:name=".ic_launcher28"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher29"
+         android:name=".ic_launcher29"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher30"
+         android:name=".ic_launcher30"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+         android:label="日历"
+         android:icon="@mipmap/ic_launcher31"
+         android:name=".ic_launcher31"
+         android:enabled="false"
+         android:targetActivity=".MainActivity">
+            <meta-data
+             android:name="io.flutter.embedding.android.NormalTheme"
+             android:resource="@style/NormalTheme"
+             />
+            <meta-data
+             android:name="io.flutter.embedding.android.SplashScreenDrawable"
+             android:resource="@drawable/launch_background"
+             />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data
