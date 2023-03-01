@@ -1,7 +1,7 @@
+import 'package:calendarapp/screens/dynamicicon.dart';
 import 'package:calendarapp/screens/event.dart';
 import 'package:calendarapp/screens/sputil.dart';
 import 'package:calendarapp/screens/style.dart';
-import 'package:dynamic_icon_flutter/dynamic_icon_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_swipe_action_cell/flutter_swipe_action_cell.dart';
 import 'package:table_calendar/table_calendar.dart';
@@ -19,7 +19,6 @@ class _CalendarState extends State<Calendar> {
   CalendarFormat _calendarFormat = CalendarFormat.month;
   DateTime _focusedDay = DateTime.now();
   DateTime _selectedDay = DateTime.now();
-  static const selctFontSize = 12.0;
 
   final calendarStyle = const CalendarStyle();
   final style = const Style();
@@ -48,63 +47,6 @@ class _CalendarState extends State<Calendar> {
     }
 
     return lunarDate.getDayInChinese();
-  }
-
-  void setAppIcon() {
-    const List<String> list = [
-      "MainActivity",
-      "ic_launcher1",
-      "ic_launcher2",
-      "ic_launcher3",
-      "ic_launcher4",
-      "ic_launcher5",
-      "ic_launcher6",
-      "ic_launcher7",
-      "ic_launcher8",
-      "ic_launcher9",
-      "ic_launcher10",
-      "ic_launcher11",
-      "ic_launcher12",
-      "ic_launcher13",
-      "ic_launcher14",
-      "ic_launcher15",
-      "ic_launcher16",
-      "ic_launcher17",
-      "ic_launcher18",
-      "ic_launcher19",
-      "ic_launcher20",
-      "ic_launcher21",
-      "ic_launcher22",
-      "ic_launcher23",
-      "ic_launcher24",
-      "ic_launcher25",
-      "ic_launcher26",
-      "ic_launcher27",
-      "ic_launcher28",
-      "ic_launcher29",
-      "ic_launcher30",
-      "ic_launcher31",
-    ];
-
-    var now = DateTime.now();
-
-    try {
-      var day = SpUtils.getString('day');
-      if (day == null) {
-        return;
-      }
-
-      if (day == '${now.day}') {
-        return;
-      }
-
-      DynamicIconFlutter.setIcon(
-          icon: 'ic_launcher${now.day}', listAvailableIcon: list);
-
-      // ignore: empty_catches
-    } catch (e) {}
-
-    SpUtils.putString('day', '${now.day}');
   }
 
   String jieriText(DateTime day) {
@@ -400,7 +342,6 @@ class _CalendarState extends State<Calendar> {
               const SizedBox(width: 10),
               FloatingActionButton(
                 onPressed: () {
-                  setAppIcon();
                   __addEvensForDay(_selectedDay);
                 },
                 child: const Icon(Icons.add_box),

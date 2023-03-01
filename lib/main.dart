@@ -1,11 +1,17 @@
+import 'package:calendarapp/screens/dynamicicon.dart';
 import 'package:calendarapp/screens/splash.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:calendarapp/screens/sputil.dart' show SpUtils;
 
-void main() {
-  initializeDateFormatting()
-      .then((_) => {runApp(const MainApp()), loadAsync()});
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  initializeDateFormatting().then((_) => {
+        runApp(const MainApp()),
+        loadAsync(),
+        refreshAppIcon(),
+      });
 }
 
 class MainApp extends StatelessWidget {

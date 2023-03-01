@@ -25,6 +25,10 @@ class SpUtils {
     _prefs = await SharedPreferences.getInstance();
   }
 
+  static bool loaded() {
+    return _prefs != null;
+  }
+
   static String? getString(String key) {
     if (_prefs == null) return null;
     var status = _prefs?.getString(key);

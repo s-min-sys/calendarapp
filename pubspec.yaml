@@ -7,7 +7,10 @@ environment:
   sdk: '>=3.0.0-232.0.dev <4.0.0'
 
 dependencies:
-  dynamic_icon_flutter: ^0.0.7
+  dynamic_app_icon:
+    git:
+      url: F:\work_sflutterstarter\dynamic_app_icon
+      ref: 9dc2cdf1c5b7907d290193744948f8bac5d1e524
   flutter:
     sdk: flutter
   flutter_swipe_action_cell: ^3.1.0
