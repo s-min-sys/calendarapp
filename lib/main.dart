@@ -1,5 +1,5 @@
-import 'package:calendarapp/screens/dynamicicon.dart';
 import 'package:calendarapp/screens/splash.dart';
+import 'package:dynamic_app_icon/dynamic_app_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:calendarapp/screens/sputil.dart' show SpUtils;
@@ -10,7 +10,10 @@ Future<void> main() async {
   initializeDateFormatting().then((_) => {
         runApp(const MainApp()),
         loadAsync(),
-        refreshAppIcon(),
+        DynamicAppIcon().androidSendBroadcast(
+            action: 'com.example.calendarapp.REFRESH_ICON'),
+        DynamicAppIcon().androidSendBroadcast(
+            action: 'com.example.calendarapp.REFRESH_ALARM'),
       });
 }
 

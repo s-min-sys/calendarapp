@@ -45,8 +45,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "9dc2cdf1c5b7907d290193744948f8bac5d1e524"
-      resolved-ref: "9dc2cdf1c5b7907d290193744948f8bac5d1e524"
+      ref: "29c5058e606139e55da0a1431ed2507e55058b65"
+      resolved-ref: "29c5058e606139e55da0a1431ed2507e55058b65"
       url: "F:\\work_sflutterstarter\\dynamic_app_icon"
     source: git
     version: "0.0.1"

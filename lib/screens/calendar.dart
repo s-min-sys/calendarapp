@@ -1,4 +1,3 @@
-import 'package:calendarapp/screens/dynamicicon.dart';
 import 'package:calendarapp/screens/event.dart';
 import 'package:calendarapp/screens/sputil.dart';
 import 'package:calendarapp/screens/style.dart';

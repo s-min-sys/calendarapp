@@ -10,7 +10,7 @@ dependencies:
   dynamic_app_icon:
     git:
       url: F:\work_sflutterstarter\dynamic_app_icon
-      ref: 9dc2cdf1c5b7907d290193744948f8bac5d1e524
+      ref: 29c5058e606139e55da0a1431ed2507e55058b65
   flutter:
     sdk: flutter
   flutter_swipe_action_cell: ^3.1.0
